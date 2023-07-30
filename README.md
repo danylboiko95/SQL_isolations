@@ -7,53 +7,53 @@ This README file provides a comparison of transaction isolation levels in Postgr
 ### PostgreSQL Transaction Isolation Levels
 
 1. **READ UNCOMMITTED**:
-   - Allows Dirty Read: Happened
-   - Allows Non-repeatable Reads: Happened
-   - Allows Phantom Reads: Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Happened
+   - Non-repeatable Reads: Happened
+   - Phantom Reads: Happened
+   - Lost Update: Not Happened
 
 2. **READ COMMITTED**:
-   - Allows Dirty Read: Not Happened
-   - Allows Non-repeatable Reads: Not Happened
-   - Allows Phantom Reads: Not Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Not Happened
+   - Non-repeatable Reads: Not Happened
+   - Phantom Reads: Not Happened
+   - Lost Update: Not Happened
 
 3. **REPEATABLE READ**:
-   - Allows Dirty Read: Not Happened
-   - Allows Non-repeatable Reads: Happened
-   - Allows Phantom Reads: Not Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Not Happened
+   - Non-repeatable Reads: Happened
+   - Phantom Reads: Not Happened
+   - Lost Update: Not Happened
 
 4. **SERIALIZABLE**:
-   - Allows Dirty Read: Not Happened
-   - Allows Non-repeatable Reads: Not Happened
-   - Allows Phantom Reads: Not Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Not Happened
+   - Non-repeatable Reads: Not Happened
+   - Phantom Reads: Not Happened
+   - Lost Update: Not Happened
 
 ---
 
 ### MariaDB Transaction Isolation Levels
 
 1. **READ UNCOMMITTED**:
-   - Allows Dirty Read: Happened
-   - Allows Non-repeatable Reads: Happened
-   - Allows Phantom Reads: Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Happened
+   - Non-repeatable Reads: Happened
+   - Phantom Reads: Happened
+   - Lost Update: Not Happened
 
 2. **READ COMMITTED**:
-   - Allows Dirty Read: Not Happened
-   - Allows Non-repeatable Reads: Not Happened
-   - Allows Phantom Reads: Not Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Not Happened
+   - Non-repeatable Reads: Not Happened
+   - Phantom Reads: Not Happened
+   - Lost Update: Not Happened
 
 3. **REPEATABLE READ**:
-   - Allows Dirty Read: Not Happened
-   - Allows Non-repeatable Reads: Happened
-   - Allows Phantom Reads: Not Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Not Happened
+   - Non-repeatable Reads: Happened
+   - Phantom Reads: Not Happened
+   - Lost Update: Not Happened
 
 4. **SERIALIZABLE**:
-   - Allows Dirty Read: Not Happened
-   - Allows Non-repeatable Reads: Not Happened
-   - Allows Phantom Reads: Not Happened
-   - Allows Lost Update: Not Happened
+   - Dirty Read: Not Happened
+   - Non-repeatable Reads: Not Happened
+   - Phantom Reads: Not Happened
+   - Lost Update: Not Happened
